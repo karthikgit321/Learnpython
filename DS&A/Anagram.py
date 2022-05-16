@@ -4,4 +4,4 @@ def string(s1,s2):
 
     return sorted(s1)==sorted(s2)
 
-print(string('i am suviksha','am i huviskas'))
+print(string('test','estt'))

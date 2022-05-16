@@ -1,12 +1,12 @@
-'''
+
 
 list2=[]
 list3=[]
-l=len(list1)
+
 #1. Move all ZERO to end
 #2. Move all ZERO to index 3
-# [1,2,3,0,0,0,0,0,0,4,5,6,7,8]
-
+list1=[1,2,3,0,0,0,0,0,0,4,5,6,7,8]
+l=len(list1)
 for i in range(0,l):
     if list1[i]==0:
         list2.append(list1[i])
@@ -17,7 +17,7 @@ print(list2)
 print(list3)
 
 for i in range(0,len(list2)):
-    list3[i+3]=list2[i]
+    list3.insert(list2[i])
 print(list3)
 
 
@@ -39,3 +39,4 @@ arr=[0,0,0,0,1,2,3,4,5,0,0,0]
 n=len(arr)
 pushzeros(arr,n)
 print(arr)
+'''

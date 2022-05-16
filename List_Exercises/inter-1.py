@@ -14,6 +14,4 @@ def RemoveDupliChar():
             index += 1
     print(NewWord.strip())
 
-
-
 RemoveDupliChar()
